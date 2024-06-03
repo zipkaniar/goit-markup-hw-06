@@ -15,8 +15,11 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Web Studio</title>
+    <title>homework 6</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobiles.css">
+    <link rel="stylesheet" type="text/css" href="./css/tablets.css">
 </head>
 
 <body>
@@ -40,7 +43,7 @@
     </header>
     <main>
         <section class="section-main">
-            <div class="container">
+            <div class="container section-first-container">
                 <h1 class="hone-css">
                     Effective Solutions
                     for Your Business
@@ -58,9 +61,11 @@
                                 <use href="./images/icons.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                        <h3 class=" hthree-css">Strategy</h3>
-                        <p class="hthreep-css">Our goal is to identify the business
-                            problem to walk away with the perfect and creative solution.</p>
+                        <div class="section-text-container">
+                            <h3 class=" hthree-css">Strategy</h3>
+                            <p class="hthreep-css">Our goal is to identify the business
+                                problem to walk away with the perfect and creative solution.</p>
+                        </div>
                     </li>
                     <li class="ul-list_item">
                         <div class="sec_two_icon_container">
@@ -68,11 +73,14 @@
                                 <use href="./images/icons.svg#icon-clock-1"></use>
                             </svg>
                         </div>
-                        <h3 class="hthree-css">Punctuality</h3>
-                        <p class="hthreep-css">Bring the key message to the brand's audience for the best price within
-                            the
-                            shortest possible
-                            time.</p>
+                        <div class="section-text-container">
+                            <h3 class="hthree-css">Punctuality</h3>
+                            <p class="hthreep-css">Bring the key message to the brand's audience for the best price
+                                within
+                                the
+                                shortest possible
+                                time.</p>
+                        </div>
                     </li>
                     <li class="ul-list_item">
                         <div class="sec_two_icon_container">
@@ -80,10 +88,12 @@
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
                             </svg>
                         </div>
-                        <h3 class="hthree-css">Diligence</h3>
-                        <p class="hthreep-css">Research and confirm brands that present the strongest digital growth
-                            opportunities and minimize
-                            risk.</p>
+                        <div class="section-text-container">
+                            <h3 class="hthree-css">Diligence</h3>
+                            <p class="hthreep-css">Research and confirm brands that present the strongest digital growth
+                                opportunities and minimize
+                                risk.</p>
+                        </div>
                     </li>
                     <li class="ul-list_item">
                         <div class="sec_two_icon_container">
@@ -91,11 +101,13 @@
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
                             </svg>
                         </div>
-                        <h3 class="hthree-css">Technologies</h3>
-                        <p class="hthreep-css">Design practice focused on digital experiences. We bring forth a deep
-                            passion
-                            for
-                            problem-solving.</p>
+                        <div class="section-text-container">
+                            <h3 class="hthree-css">Technologies</h3>
+                            <p class="hthreep-css">Design practice focused on digital experiences. We bring forth a deep
+                                passion
+                                for
+                                problem-solving.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -430,7 +442,7 @@
     /* MODAL WİNDOW*/
     <div class="container-modal-window">
         <div class="modal-window">
-            <button type="button" class="modal-btn">
+            <button type=" button" class="modal-btn">
                 <svg class="x-svg" width="8" height="8">
                     <use href="./images/symbol-defs.svg#icon-close-black-18dp-1">
                     </use>
