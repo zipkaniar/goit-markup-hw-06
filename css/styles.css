@@ -16,6 +16,13 @@ img {
     display: block;
 }
 
+/*hamburger menü*/
+.header-hamburger-mobil-menü {
+    display: none;
+    border: none;
+    background: none;
+}
+
 /* HEADER */
 .header {
     border-bottom: 1px solid #E7E9FC;

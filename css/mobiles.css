@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+
+    /*header*/
+    .header-div {
+        width: 100%;
+    }
+
+    header .header_list,
+    .header-adres_list {
+        display: none;
+    }
+
+    /*hamburger menü*/
+    header .header-hamburger-mobil-menü {
+        display: block;
+    }
+
+    /*section main*/
+
+}
