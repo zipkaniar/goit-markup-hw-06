@@ -1,12 +1,12 @@
 @media screen and (max-width: 767px) {
 
     /*header*/
-    .header-div {
+    header .header-div {
         width: 100%;
     }
 
     header .header_list,
-    .header-adres_list {
+    header .header-adres_list {
         display: none;
     }
 
@@ -15,6 +15,68 @@
         display: block;
     }
 
-    /*section main*/
+    /*section two*/
+    main .ul-list {
+        justify-content: center;
+    }
 
+    main .section-text-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*section three*/
+    main .ulclass {
+        justify-content: center;
+    }
+
+    /*section four*/
+    main .portfolio-list {
+        justify-content: center;
+    }
+
+    /*footer*/
+    footer .footer-logo-p-container {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    footer .footer-last-container {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    footer .footer-social-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 72px 0;
+    }
+
+    footer .ft-subscribe-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-container {
+        padding: 96px 16px;
+    }
+}
+
+/* MODAL SMALL */
+@media (max-width: 408px) {
+    .modal-window {
+        width: 100%;
+    }
 }
