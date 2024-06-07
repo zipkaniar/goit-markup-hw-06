@@ -32,6 +32,10 @@
         justify-content: center;
     }
 
+    .section-threeli {
+        width: 98%;
+    }
+
     /*section four*/
     main .portfolio-list {
         justify-content: center;

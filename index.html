@@ -11,9 +11,11 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/mobiles.css">
-    <link rel="stylesheet" type="text/css" href="./css/tablets.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/tablets.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobiles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <title>homework 6</title>
 </head>
 
@@ -27,18 +29,19 @@
                     <li><a class="header_navli" href="">Portfolio</a></li>
                     <li><a class="header_navli" href="">Contacts</a></li>
                 </ul>
+
+                <address class="header_adres">
+                    <ul class=" header-adres_list">
+                        <li><a class="header-adress_list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="header-adress_list" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+                <button onclick="toggleMenu()" type="button" class="header-hamburger-mobil-menü">
+                    <svg width="24px" height="24px" class="hamburger-btn">
+                        <use href="./images/hamburger.svg#icon-Group"></use>
+                    </svg>
+                </button>
             </nav>
-            <address class="header_adres">
-                <ul class=" header-adres_list">
-                    <li><a class="header-adress_list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-adress_list" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-            <button onclick="toggleMenu()" type="button" class="header-hamburger-mobil-menü">
-                <svg width="24px" height="24px" class="hamburger-btn">
-                    <use href="./images/hamburger.svg#icon-Group"></use>
-                </svg>
-            </button>
         </div>
     </header>
     <main>
@@ -113,7 +116,7 @@
             </div>
         </section>
         <section class="section-three">
-            <div class="container section-there_div container">
+            <div class="container section-there_div">
                 <h2 class="htvoclass">Our Team</h2>
                 <ul class="ulclass">
                     <li class="section-threeli">
@@ -442,7 +445,7 @@
         </div>
     </footer>
 
-    /* MODAL WİNDOW*/
+    <!--MODAL WİNDOW-->
     <div class="container-modal-window">
         <div class="modal-window">
             <button type=" button" class="modal-btn">

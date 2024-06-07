@@ -1,5 +1,9 @@
 @media screen and (max-width: 1158px) {
+
     /*header*/
+    .header_list {
+        flex: unset;
+    }
 
     header .header-div {
         width: 100%;
@@ -23,6 +27,7 @@
     main .one-section_div {
         width: 100%;
         padding: 0;
+        flex-direction: column;
     }
 
     main .sec_two_icon_container {
@@ -34,7 +39,8 @@
     }
 
     main .ul-list {
-        flex-wrap: whap;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         max-width: 736px;
     }
@@ -53,6 +59,10 @@
         flex-wrap: wrap;
     }
 
+    .section-threeli {
+        width: 48%;
+    }
+
     /*section four*/
     main .section-four {
         padding: 96px 12px;
@@ -61,6 +71,10 @@
     main .sec-four-container {
         padding: 0;
         width: 100%;
+    }
+
+    .portfolio_item {
+        width: 44%;
     }
 
     /*FOOTER*/
