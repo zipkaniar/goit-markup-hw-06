@@ -463,10 +463,6 @@ img {
     align-items: center;
 }
 
-.footer-social-container {
-    justify-self: flex-end;
-}
-
 .footer-last-container {
     width: 50%;
     display: flex;

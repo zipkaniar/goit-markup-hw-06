@@ -41,6 +41,10 @@
         justify-content: center;
     }
 
+    .portfolio_item {
+        width: 98%;
+    }
+
     /*footer*/
     footer .footer-logo-p-container {
         flex-direction: column;

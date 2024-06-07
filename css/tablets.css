@@ -83,6 +83,10 @@
         padding: 0;
     }
 
+    .footer-last-container {
+        width: 78%;
+    }
+
     footer .footer-container {
         display: block;
         padding: 96px 108px;
