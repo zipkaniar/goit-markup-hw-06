@@ -54,7 +54,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -438,6 +438,7 @@ img {
 .footer_logo {
     display: inline-block;
     margin-bottom: 16px;
+    margin-inline: auto;
 }
 
 .spanfooter {
