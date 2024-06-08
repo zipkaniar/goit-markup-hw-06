@@ -36,7 +36,7 @@
                         <li><a class="header-adress_list" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     </ul>
                 </address>
-                <button onclick="toggleMenu()" type="button" class="header-hamburger-mobil-menü">
+                <button oneclick="toggleMenu()" type="button" class="header-hamburger-mobil-menü">
                     <svg width="24px" height="24px" class="hamburger-btn">
                         <use href="./images/hamburger.svg#icon-Group"></use>
                     </svg>
@@ -51,7 +51,7 @@
                     Effective Solutions
                     for Your Business
                 </h1>
-                <button onclick="toggle()" class="button" type="button">Order Service</button>
+                <button onclick="toggle()" class="button order-service-button" type="button">Order Service</button>
             </div>
         </section>
         <section class="sec_two">
@@ -446,9 +446,9 @@
     </footer>
 
     <!--MODAL WİNDOW-->
-    <div class="container-modal-window">
+    <div class="container-modal-window" id="modal-window">
         <div class="modal-window">
-            <button type=" button" class="modal-btn">
+            <button oneclick="toggle()" type="button" class="modal-btn">
                 <svg class="x-svg" width="8" height="8">
                     <use href="./images/symbol-defs.svg#icon-close-black-18dp-1">
                     </use>
@@ -511,7 +511,7 @@
     <div class="mobile-hamburg" id="mobile-hamburg">
         <button oneclick="toggleMenu()" class="modal-btn btn-hamburg" type="button">
             <svg class="x-svg" width="8" height="8">
-                <use href="./images/icons.svg#icon-close-black-18dp-1"></use>
+                <use href="./images/symbol-defs.svg#icon-close-black-18dp-1"></use>
             </svg>
         </button>
         <div class="mobile-menü-container">
@@ -540,21 +540,21 @@
                         </svg>
                     </a>
                 </li>
-                <li class="mobile-social">
+                <li class="mobile-menü-socialli">
                     <a href="" class="mobile-menü-socialsa">
                         <svg width="16" height="16" class="team-icon-card">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="mobile-social">
+                <li class="mobile-menü-socialli">
                     <a href="" class="mobile-menü-socialsa">
                         <svg width="16" height="16" class="team-icon-card">
                             <use href="./images/icons.svg#icon-facebook-1"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="mobile-social">
+                <li class="mobile-menü-socialli">
                     <a href="" class="mobile-menü-socialsa">
                         <svg width="16" height="16" class="team-icon-card">
                             <use href="./images/icons.svg#icon-linkedin-1"></use>
