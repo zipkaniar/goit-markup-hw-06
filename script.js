@@ -5,5 +5,5 @@ function toggle() {
 
 function toggleMenu() {
   var menu = document.getElementById("mobile-hamburg");
-  menu.classList.toggleMenu("is-open");
+  menu.classList.toggle("is-open");
 }
